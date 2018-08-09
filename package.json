@@ -1,7 +1,17 @@
 {
-  "dependencies": {
+  "name": "sentry-delete-old-releases",
+  "version": "1.0.0",
+  "description": "Delete sentry releases older than a number of days",
+  "main": "index.js",
+  "repository": "https://github.com/actano/sentry-delete-old-releases.git",
+  "author": {
+    "name": "Actano GmbH",
+    "url": "https://rplan.com/"
+  },
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
     "chai": "^4.1.2",
-    "http": "^0.0.0",
     "mocha": "^5.2.0",
     "sinon": "^6.1.4"
   }
