@@ -1,3 +1,3 @@
-import { deleteOldReleases } from './lib/sentry-delete-old-releases'
+const { deleteOldReleases } = require('./lib/sentry-delete-old-releases')
 
 deleteOldReleases()
