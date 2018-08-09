@@ -1,0 +1,6 @@
+extends: actano-base
+
+env:
+  mocha: true
+rules:
+  no-unused-expressions: off
