@@ -9,7 +9,8 @@
     "url": "https://rplan.com/"
   },
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "mocha"
   },
   "license": "MIT",
   "private": false,
