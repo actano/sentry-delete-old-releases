@@ -1,0 +1,12 @@
+/local.env
+node_modules
+/build
+/test_reports
+/*.log
+/karma-*
+tmp
+.tmp
+.idea
+.coverage
+packages/*/node_modules
+flow-typed
