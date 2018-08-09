@@ -8,6 +8,9 @@
     "name": "Actano GmbH",
     "url": "https://rplan.com/"
   },
+  "scripts": {
+    "lint": "eslint ."
+  },
   "license": "MIT",
   "private": false,
   "devDependencies": {
