@@ -9,6 +9,7 @@
     "url": "https://rplan.com/"
   },
   "scripts": {
+    "start:dryRun": "node ./index.js true",
     "lint": "eslint .",
     "test": "mocha"
   },
