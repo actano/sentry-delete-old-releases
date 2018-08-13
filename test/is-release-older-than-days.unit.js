@@ -1,7 +1,7 @@
 const { expect } = require('chai')
 const sinon = require('sinon')
 
-const { isReleaseOlderThanDays } = require('../lib/is-older-than-days')
+const { isReleaseOlderThanDays } = require('../lib/is-release-older-than-days')
 
 const dummyRelease = {
   dateCreated: '2018-08-03T23:20:09.636Z',
@@ -9,7 +9,7 @@ const dummyRelease = {
   firstEvent: '2018-08-03T23:20:09.849Z',
 }
 
-describe('releaseOlderThan', () => {
+describe('isReleaseOlderThanDays', () => {
   let clock
 
   beforeEach('clock', () => {
