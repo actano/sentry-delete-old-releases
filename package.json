@@ -23,5 +23,9 @@
     "eslint-plugin-import": "^2.13.0",
     "mocha": "^5.2.0",
     "sinon": "^6.1.4"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "parse-link-header": "^1.0.1"
   }
 }
